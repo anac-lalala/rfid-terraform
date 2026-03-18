@@ -1,0 +1,25 @@
+# Local Terraform working directory (contains provider binaries and modules)
+.terraform/
+
+# State files (contain sensitive infrastructure information)
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Variable files (often contain environment-specific secrets or credentials)
+*.tfvars
+*.tfvars.json
+
+# Log and crash files
+crash.log
+crash.*.log
+
+# Override files (local temporary configurations)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
